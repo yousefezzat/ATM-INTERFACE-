@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ATM Interface
 
 ![Java](https://img.shields.io/badge/Java-11-orange)
@@ -11,6 +10,8 @@ A Java Spring Boot application that simulates ATM functionalities, providing use
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Features
 
@@ -42,21 +43,18 @@ mvn clean install
 mvn spring-boot:run
 The application will be accessible at http://localhost:8080.
 
-## Usage
-
+Usage
 To create a new user account, use the /user/signup endpoint by providing the user's full name, PIN, and initial balance.
 
 To perform transactions, you can use the following endpoints:
 
-- /user/login for user login.
-- /user/details/{userId} to get user details.
-- /user/update/{userId} to update user information.
-- /user/history/{userId} to get user transaction history.
-- /transaction/withdraw to perform a withdrawal.
-- /transaction/deposit to make a deposit.
-- /transaction/transfer to initiate a fund transfer.
-- /transaction/details/{transactionId} to view transaction details.
-
-## Contributing
-
+/user/login for user login.
+/user/details/{userId} to get user details.
+/user/update/{userId} to update user information.
+/user/history/{userId} to get user transaction history.
+/transaction/withdraw to perform a withdrawal.
+/transaction/deposit to make a deposit.
+/transaction/transfer to initiate a fund transfer.
+/transaction/details/{transactionId} to view transaction details.
+Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
