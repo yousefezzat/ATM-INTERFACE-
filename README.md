@@ -44,17 +44,19 @@ mvn spring-boot:run
 The application will be accessible at http://localhost:8080.
 
 Usage
+
 To create a new user account, use the /user/signup endpoint by providing the user's full name, PIN, and initial balance.
-
-To perform transactions, you can use the following endpoints:
-
-/user/login for user login.
+To login, use /user/login endpoint by providing the user id and user pin
 /user/details/{userId} to get user details.
 /user/update/{userId} to update user information.
 /user/history/{userId} to get user transaction history.
+
+To perform transactions, you can use the following endpoints:
 /transaction/withdraw to perform a withdrawal.
 /transaction/deposit to make a deposit.
 /transaction/transfer to initiate a fund transfer.
 /transaction/details/{transactionId} to view transaction details.
+
+
 Contributing
 Contributions are welcome! Feel free to submit issues and pull requests.
